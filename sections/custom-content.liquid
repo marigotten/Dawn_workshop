@@ -1,0 +1,19 @@
+<h2>{{ section.settings.title }}</h2>
+{% schema %}
+{
+   "name": "Custom Content",
+  "settings": [
+    {
+       "type": "text",
+       "id": "title",
+       "label": "Custom content heading",
+       "default": "Title"
+    }
+  ],
+ "presets": [
+    {
+        "name":"Custom Content"
+    }
+ ]
+}
+{% endschema %}
