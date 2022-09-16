@@ -300,6 +300,25 @@ fieldset.product-form__input .form__label {
   margin: 2.5rem 0;
 }
 
+.product__tag-list {
+  padding: 0;
+  list-style: none;
+}
+
+.product__tag:not(:first-child) {
+  padding-left: 1rem;
+}
+
+.product__tag > a {
+  color: rgba(var(--color-foreground), 0.75);
+  font-size: 1rem;
+}
+
+.product__tag > a:hover {
+  color: rgba(var(--color-foreground), 0.4);
+  transition: color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
 .product__text {
   margin-bottom: 0;
 }
